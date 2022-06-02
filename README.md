@@ -14,3 +14,11 @@
 - Glue에서 Amazon Redshift로 데이터 적재
 - Amazon Redshift 모범 설계 사례 소개
 - Amazon Athena를 사용하여 데이터를 쿼리하고 Amazon QuickSight를 사용하여 시각화
+
+# 작업순서
+1. Kinesis firehose를 사용하여 데이터를 수집 S3에 저장
+2. AWS Glue 데이터 카탈로그에 테이블을 카탈로그화
+3. Glue ETL/EMR을 사용하여 데이터를 변환 
+4. Athena와 Quicksight를 사용하여 데이터를 쿼리 및 시각화
+
+-> 서버리스 분석 배포 모델에서 소스와 비즈니스 대시보드 사이의 end to end 아키텍처 제공
